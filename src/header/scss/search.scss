@@ -1,0 +1,59 @@
+@import "variables";
+
+.input-group{
+    width: 58.33333%;
+}
+
+.search-box-wrapper{
+    margin-top: 0px;
+    padding-top: 13.5px;
+    padding-left: 15px;
+
+    .searchTextSpan{
+        display: table;
+        margin: auto;
+        line-height: 20px;
+        padding-top: 3px;
+        padding-right: 3px;
+    }
+}
+
+.overlap{
+    position: absolute;
+    width: 76%;
+    padding: 0 10px 0 32px;
+    color: $button-color;
+    border-radius: 2px 0px 0px 2px;
+    height: 37px;
+    line-height: 37px;
+    font-size: $searchFontsize;
+}
+
+.searchformInput{
+    background: rgba(244,244,244,0.6);
+    border: none;
+    font-size: $searchFontsize;
+    color: $button-color;
+    border-right: none;
+    height: 37px;
+    padding: 0 10px 0 32px;
+    outline: none;
+    text-overflow: ellipsis;
+    width: 100%;
+    background: white;
+}
+
+.searchformButton{
+    position: relative;
+    top: 0;
+    background: $button-color;
+    color: $text-color;
+    transition: all .2s ease-out;
+    height: 37px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    border-radius: 0 3px 3px 0 !important;
+}

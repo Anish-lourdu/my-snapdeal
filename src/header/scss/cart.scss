@@ -1,0 +1,19 @@
+.cartContainer{
+    height: 63px;
+    text-align: center;
+    display: table;
+    cursor: pointer;
+}
+
+.cartInner{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.sd-icon{
+    margin-left: -6px;
+    color: #fff;
+    margin-top: 4px;
+    font-size: 23px;
+    position: relative;
+}

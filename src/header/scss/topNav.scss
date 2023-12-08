@@ -1,0 +1,24 @@
+@import "variables";
+
+.header{
+    background-color: #c7053f;
+    color: #ffffff;
+}
+
+.topNav__section{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+
+    .topNav__hooks{
+        padding: 3px 8px;
+        border-radius: 2px;
+        line-height: 22px;
+        display: inline;
+    }
+}
+
+.topNav__section a{
+    text-decoration: none;
+    color: $text-color;
+}
